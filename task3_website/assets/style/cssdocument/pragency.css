@@ -1,0 +1,870 @@
+body {
+    width: 100vw;    
+
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    background: #F2F2F2;
+
+    color: #131313;
+}
+
+/* --------------------------------------------Groups ---------------------------------------------*/
+/*--------<Блочные заголовки 3, 4, 5, 7, 8 pages-----------*/
+
+.headerblock {
+    padding-bottom: 25px;
+    border-bottom: 2px solid #202020; 
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    text-transform: lowercase;    
+}
+
+/* --------------------------------------------Header ---------------------------------------------*/
+
+.header-container  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 15vh;
+} 
+
+.header-nav {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: lowercase;    
+}
+
+.nav-link {
+    margin-right: 35px;
+    text-decoration: none;
+}
+
+.nav-link:last-child {
+    margin-right: 0px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+/* ------------------------------------------Main------------------------------------------*/
+/* ---------------------------------------1st page------------------------------------------*/
+
+.main-container {
+    margin: 60px;
+}
+
+.fisrtpage-one {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+    height: 20vh;    
+}
+
+.activity1 {
+    width: 20%;
+}
+
+.sidetext {
+    transform: rotate(90deg);
+}
+
+.fisrtpage-two {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    
+    height: 80vh;    
+}
+
+.title1 {    
+    width: 70%;
+
+    font-weight: 500;
+    font-size: 145px;
+    line-height: 100%;
+}
+
+.title2 {
+    position: relative;
+    top: 225px;
+    order: -1;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 100%;
+}
+
+.fisrtpage-three {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:baseline;
+    height: 35vh;
+}    
+
+.heading-about-company {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+
+    text-transform: lowercase;
+
+    opacity: 0.58;
+}
+
+.actibity2 {
+    width: 40%;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+}
+
+.activity3 {
+    order: -4;
+    width: 45%;
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 127%;
+    
+    text-transform: uppercase;
+}
+
+.firstpage-button {
+    display: flex;
+    justify-content:right;
+}
+
+.button-signup {
+    margin-right: 17%;
+    margin-bottom: 200px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+
+    text-decoration: none;
+
+    border: 1px solid #131313;
+    border-radius: 900px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    /* identical to box height, or 16px */
+
+    text-transform: uppercase;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+a.button-signup:hover {
+    text-decoration: underline;
+    background-color: cornflowerblue;
+}
+
+/* ---------------------------------------2d page------------------------------------------*/
+
+.secondpage{
+    display: flex;
+    flex-direction: column;
+    max-height: max-content;
+}
+
+.headerblock-secondpage {
+    padding-top: 25px;
+    border-top: 2px solid #202020; 
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    text-transform: lowercase;    
+}
+
+.reasons {
+    display: flex;
+    flex-direction: row;    
+    align-items:center;
+}
+
+.rounds {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;  
+
+    width: 15em;
+    height: 13em;
+
+    border: 2px solid black;
+    border-radius: 50%;
+
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 100%;
+}
+
+.company-concept {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: max-content;
+}
+
+.companymission {
+    width: 47%;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 127%;
+
+    text-transform: uppercase;
+}
+
+.companyrules {
+    width: 43%;
+}
+
+.companyrules h3 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+}
+
+.companyrules ul li {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 127%;
+
+    list-style-position:inside;
+}
+
+.companyrules ul li::marker {
+    color:#A9216B;
+    font-size: 20px;    
+}
+
+.secondpage-button {
+    display: flex;
+    justify-content:right;
+}
+
+a.button-telegram {
+    margin-right: 25%;
+    margin-bottom: 150px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+
+    border: 1px solid #131313;
+    border-radius: 900px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+
+    text-decoration-line: none;
+    text-transform: uppercase;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    color:  #131313
+}
+
+a.button-telegram:hover {
+    text-decoration: underline;
+    background-color: cornflowerblue;
+}
+
+.awards {
+    display: flex;
+    flex-direction: row;  
+    justify-content:space-evenly;
+
+    margin-bottom: 150px;    
+}
+
+.firstaward,
+.secondaward {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items:flex-end;
+    width: 25%;
+
+    background-image: url(/ITGirlsHomework/WEEK5/task3_website/assets/images/awardback1.png); 
+    background-repeat: no-repeat;
+    background-position:right;
+    background-position-y: top; 
+    
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 130%;
+
+    text-align: center;
+}
+
+/* ---------------------------------------3d page------------------------------------------*/
+
+.fourthpage {
+    display: flex;
+    flex-direction: column;
+    max-height: max-content;
+}
+
+ul.servisenames {
+    margin-left: 70px;
+    margin-bottom: 150px;
+}
+
+ul.servisenames li {
+    margin-top: 30px;
+    margin-bottom: 35px;
+    list-style-type:none;
+    border-bottom: 2px solid #939393;
+        
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+}
+
+/* ---------------------------------------4th page------------------------------------------*/
+
+.fourthpage {
+    display: flex;
+    flex-direction: column;
+    max-height: max-content;
+
+    background-color: #EBEBEB;;
+}
+
+.content-fourthpage {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center;
+    margin-left: 70px;
+}
+
+.content-founder {
+    width: 45%;
+}
+
+.content-founder h4 {
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 100%;
+}
+
+.content-founder p {
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    /* or 17px */
+}
+
+.content-founder ul {
+    padding-left: 0;
+    margin-bottom: 40px;
+}
+
+.content-founder ul li {
+    margin-bottom: 20px;
+    
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+
+    list-style-position:inside;
+}
+
+.content-founder ul li::marker {
+    color:#A9216B;
+    font-size: 20px;    
+}
+
+p.extra-info {   
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 130%;
+}
+
+/*картинку на 4й странице пыталась уменьшать, но она при изменнии ширины и высты вылезала влево от контейнера*/
+
+#podcastlink {
+    position: relative;
+    top: -100px;
+    left: 550px;
+    width: 15%;
+    height: 15%;
+}
+
+/* ---------------------------------------5th page------------------------------------------*/
+
+.fifththpage {
+    display: flex;
+    flex-direction: column;
+    max-height:max-content;
+}
+
+.cases {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 160px;
+}
+
+.cases-info {
+    width: 30%;   
+}
+
+.cases img {
+    width: 100%;
+    height: 50%;
+}
+
+.cases-info h5 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+
+    padding-bottom: 6px;
+    border-bottom: 1px solid #131313;
+}
+
+.cases-ingo p {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 140%;
+}
+
+p.item-color::first-line {
+    color: #A9216B;
+}
+
+/* ---------------------------------------6th page-------------------------------*/
+
+.sixpage {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:max-content;
+
+    margin-bottom: 160px;
+
+    background: #EBEBEB;
+    background-image: url(/ITGirlsHomework/WEEK5/task3_website/assets/images/back_6page.png); 
+    background-repeat: no-repeat;
+    background-position:0%;
+    background-position-y: center; 
+
+    background-color: #EBEBEB;;
+}
+
+.sixpage h2 {
+    width: 25%;
+    height: 5%;
+    margin-top: 470px;   
+    margin-left: -70px;
+    margin-right: 200px;
+    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 125px;
+    line-height: 100%;
+
+    text-transform: uppercase;
+
+    transform: rotate(-90deg);
+}
+
+.teammemeber {
+    width: 35%;
+    margin-right: 15px;    
+}
+
+.teammemeber:last-child {
+    margin-right: 0px;
+}
+
+.teammemeber h4 {
+    margin-bottom: 5px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+}
+
+.teammemeber img {
+    width: 100%;
+    height: 80%;
+}
+
+.teammemeber p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 127%;
+
+    color: #939393;
+}
+
+/* ---------------------------------------7th page-------------------------------*/
+
+.seventhpage {
+    display: flex;
+    flex-direction: column;
+    height:max-content;
+
+    justify-content: space-between;
+
+    margin-bottom: 160px;    
+}
+
+.clients-companies,
+.clients-stars {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    padding-top: 100px;
+}
+
+.circle1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+    isolation: isolate;
+
+    width: 10em;
+    height: 10em;
+
+    border: 1px solid #E8C3D7;
+    border-radius: 50%;
+}
+
+.circle2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    gap: 10px;
+    isolation: isolate;
+
+    width: 15em;
+    height: 15em;
+
+    border: 1px solid #E8C3D7;
+    border-radius: 50%;   
+}
+
+.clients-companies img {
+    width: 15vh;
+    height: 15vh;
+}
+
+.clients-stars img {
+    width: 25vh;
+    height: 25vh;
+}
+
+.clients-stars {
+    text-align: center;
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+}
+
+/* ---------------------------------------8th page-------------------------------*/
+
+.eightpage {
+    display: flex;
+    flex-direction: column;
+    height:max-content;
+
+    justify-content: space-between;
+
+    margin-bottom: 70px;    
+}
+
+.blog {
+    display: flex;
+    flex-direction: row;
+    height:80vh;
+
+    justify-content: space-between;  
+}
+
+.eightpage img {
+    width: 65%;
+}
+
+.blog-artickles {
+    display: flex;
+    flex-direction: column;
+    width: 33%;   
+    justify-content: space-between;    
+}
+
+.blog-items {
+    display: flex;
+    flex-direction: row;
+    text-align:left;
+    align-items: center;
+
+}
+
+.blog-items img {
+    width: 40%;  
+}
+
+.blog-items p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+}
+
+/* ---------------------------------------9th page-------------------------------*/
+
+.ninepage {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    
+    height:max-content;
+    margin-bottom: 50px;
+
+    background-image: url(/ITGirlsHomework/WEEK5/task3_website/assets/images/back_6page.png); 
+    background-repeat: no-repeat;
+    background-position:0%;
+    background-position-y: center; 
+}
+
+.ninepage h2 {
+    width: 5%;
+    height: 15%;
+    margin-top: 450px; 
+    margin-left: 50px;  
+    
+    margin-right: 200px;
+    
+    font-weight: 500;
+    font-size: 125px;
+    line-height: 100%;
+
+    text-transform: uppercase;
+
+    transform: rotate(-90deg);
+}
+
+.reply {    
+    padding-top: 100px;
+    margin-right: 25px;
+    width: 30%;
+}
+
+.reply:last-child {
+    margin-right: 0px;
+}
+
+.reply-client {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align:left;
+
+    margin-bottom: 25px;
+}
+
+.reply-client p {
+    margin-left: 10px;
+    width: 80%;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+}
+
+.extrastyle {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 127%;
+
+    color: #939393;
+}
+
+/* ---------------------------------------10th page-------------------------------*/
+
+.tenthpage { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height:80vh;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+}
+
+.form h4 {
+    margin-bottom: 55px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+}
+
+.form input {
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    width: 65%;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 127%;
+
+    border-bottom: 1px solid #202020;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 127%;
+
+    color: #939393;
+    background-color: #F2F2F2;
+
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    }
+
+.button-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+
+    text-decoration: none;
+
+    width: 40%;
+    margin-top: 50px;
+
+    background: #A9216B;
+    border:none;
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 127%;
+
+    color: #FFFFFF;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+/* ---------------------------------------Footer-------------------------------*/
+
+.footer-containner {
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    margin-right: 60px;
+    
+    height: max-content;    
+}
+
+.company-contacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.company-contacts p {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+}
+
+.company-contacts img {
+    width: 20%;
+}
+
+.telephones {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    text-align: center;
+}
+
+.footer-buttons {
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    justify-content: space-evenly;
+}
+
+.footer-buttons button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+
+
+    border: 1px solid #131313;
+    border-radius: 900px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 100%;
+}
+
+.legal-information {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-top: 15px;
+    border-top: 1px solid #131313;
+}
+
+
