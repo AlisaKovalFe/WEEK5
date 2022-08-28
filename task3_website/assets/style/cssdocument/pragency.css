@@ -43,6 +43,7 @@ body {
 .nav-link {
     margin-right: 35px;
     text-decoration: none;
+    color: #131313;
 }
 
 .nav-link:last-child {
